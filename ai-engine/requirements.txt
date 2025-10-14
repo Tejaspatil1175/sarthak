@@ -1,0 +1,122 @@
+# AI Engine Requirements - Python Dependencies
+
+# ============================================
+# Core Framework
+# ============================================
+Flask==3.0.0
+Flask-CORS==4.0.0
+Werkzeug==3.0.1
+
+# ============================================
+# Data Processing
+# ============================================
+pandas==2.1.4
+numpy==1.26.2
+openpyxl==3.1.2
+xlrd==2.0.1
+python-multipart==0.0.6
+
+# ============================================
+# AI/ML Libraries
+# ============================================
+# TensorFlow
+tensorflow==2.15.0
+# Or TensorFlow CPU only (lighter)
+# tensorflow-cpu==2.15.0
+
+# Keras (bundled with TensorFlow 2.x but can be explicit)
+keras==2.15.0
+
+# Scikit-learn for traditional ML
+scikit-learn==1.3.2
+
+# ============================================
+# LangChain & LLM Integration
+# ============================================
+langchain==0.1.0
+langchain-openai==0.0.2
+langchain-community==0.0.10
+
+# OpenAI
+openai==1.6.1
+
+# Alternative LLM Providers (optional)
+# google-generativeai==0.3.2  # For Gemini
+# anthropic==0.8.1  # For Claude
+# huggingface-hub==0.20.1  # For Hugging Face models
+
+# ============================================
+# Vector Stores & Embeddings (optional)
+# ============================================
+# chromadb==0.4.22
+# faiss-cpu==1.7.4
+
+# ============================================
+# Environment & Configuration
+# ============================================
+python-dotenv==1.0.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# ============================================
+# HTTP Client
+# ============================================
+requests==2.31.0
+httpx==0.26.0
+
+# ============================================
+# Utilities
+# ============================================
+python-dateutil==2.8.2
+pytz==2023.3.post1
+
+# ============================================
+# Logging & Monitoring
+# ============================================
+loguru==0.7.2
+
+# ============================================
+# Testing (optional)
+# ============================================
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-asyncio==0.21.1
+
+# ============================================
+# Code Quality (optional)
+# ============================================
+# black==23.12.1
+# flake8==7.0.0
+# pylint==3.0.3
+
+# ============================================
+# WSGI Server for Production
+# ============================================
+gunicorn==21.2.0
+waitress==2.1.2
+
+# ============================================
+# Job Queue (optional - for async processing)
+# ============================================
+# celery==5.3.4
+# redis==5.0.1
+
+# ============================================
+# Database Drivers (optional)
+# ============================================
+# pymongo==4.6.1
+# motor==3.3.2  # Async MongoDB driver
+
+# ============================================
+# Notes
+# ============================================
+# Python Version: 3.9+
+# 
+# Installation:
+# pip install -r requirements.txt
+#
+# For development:
+# pip install -r requirements.txt -r requirements-dev.txt
+#
+# For production (minimal):
+# Only install necessary packages and use gunicorn/waitress
