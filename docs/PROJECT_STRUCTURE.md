@@ -4,7 +4,7 @@ This document provides a detailed explanation of the AI-BOM-Converter project st
 
 ---
 
-## 🗂️ Root Directory Structure
+##  Root Directory Structure
 
 ```
 ai-bom-converter/
@@ -20,7 +20,7 @@ ai-bom-converter/
 
 ---
 
-## 🎨 Frontend Structure (`/frontend`)
+## Frontend Structure (`/frontend`)
 
 ```
 frontend/
@@ -125,7 +125,7 @@ frontend/
 
 ---
 
-## ⚙️ Backend Structure (`/backend`)
+## Backend Structure (`/backend`)
 
 ```
 backend/
@@ -204,7 +204,7 @@ backend/
 
 ---
 
-## 🧠 AI Engine Structure (`/ai-engine`)
+##  AI Engine Structure (`/ai-engine`)
 
 ```
 ai-engine/
@@ -263,7 +263,7 @@ ai-engine/
 
 ---
 
-## 📚 Documentation Structure (`/docs`)
+## Documentation Structure (`/docs`)
 
 ```
 docs/
@@ -284,7 +284,7 @@ docs/
 
 ---
 
-## 🔄 Data Flow Through Structure
+## Data Flow Through Structure
 
 ### Upload Flow
 ```
@@ -312,7 +312,7 @@ User (Frontend)
 
 ---
 
-## 🚀 Getting Started with the Structure
+##  Getting Started with the Structure
 
 ### For Frontend Development
 ```bash
@@ -340,7 +340,7 @@ Work primarily in `services/` and `utils/`
 
 ---
 
-## 📝 Notes
+##  Notes
 
 - All configuration files should be placed in their respective directories
 - Environment-specific files (`.env`) are gitignored

@@ -1,4 +1,4 @@
-# 🤖 AI-BOM-Converter
+# AI-BOM-Converter
 
 <div align="center">
 
@@ -14,20 +14,20 @@
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 In digital manufacturing, converting **eBOM (Engineering Bill of Materials)** to **mBOM (Manufacturing Bill of Materials)** is a critical but time-consuming process. Design engineers create eBOMs with CAD data and part structures, but manufacturing teams need additional details like routing steps, work centers, suppliers, costs, and lead times.
 
 **Manual conversion is:**
-- ⏱️ Time-consuming
-- ❌ Error-prone
-- 📉 Inefficient for large-scale production
+-  Time-consuming
+-  Error-prone
+-  Inefficient for large-scale production
 
 **Our Solution:** AI-BOM-Converter automates this entire process using AI/ML, making it fast, accurate, and intelligent.
 
 ---
 
-## 🎯 What Does It Do?
+## What Does It Do?
 
 ```
 eBOM (Engineering BOM)          →  AI Processing  →  mBOM (Manufacturing BOM)
@@ -41,32 +41,32 @@ Bolt    | Fastener    | 16        Details              Bolt    | Fastening   | O
 
 ---
 
-## ✨ Features
+##  Features
 
 ### Core Functionality
-- 📤 **Upload eBOM** - Support for Excel, CSV, and JSON formats
-- 🤖 **AI-Powered Conversion** - Intelligent restructuring using TensorFlow + LangChain
-- 🏭 **Manufacturing Details** - Auto-adds work centers, routing, suppliers, costs
-- 📥 **Export mBOM** - Download as Excel, CSV, or JSON
-- 📊 **Visual Dashboard** - Track conversions and view history
+-  **Upload eBOM** - Support for Excel, CSV, and JSON formats
+-  **AI-Powered Conversion** - Intelligent restructuring using TensorFlow + LangChain
+-  **Manufacturing Details** - Auto-adds work centers, routing, suppliers, costs
+-  **Export mBOM** - Download as Excel, CSV, or JSON
+-  **Visual Dashboard** - Track conversions and view history
 
 ### AI Capabilities
-- 🧠 Part-to-process mapping using machine learning
-- 🔍 Intelligent component classification
-- 💰 Cost and lead time prediction
-- ⚡ Routing optimization
-- 🎯 Missing component detection
+-  Part-to-process mapping using machine learning
+-  Intelligent component classification
+-  Cost and lead time prediction
+-  Routing optimization
+-  Missing component detection
 
 ### Additional Features
-- 🔐 User authentication (JWT)
-- 📈 BOM versioning & history
-- 🔄 Batch processing support
-- 📱 Responsive design
-- 🌐 RESTful API
+-  User authentication (JWT)
+-  BOM versioning & history
+-  Batch processing support
+-  Responsive design
+-  RESTful API
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **React.js** - UI framework
@@ -173,7 +173,7 @@ Access the application at `http://localhost:3000`
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ai-bom-converter/
@@ -207,7 +207,7 @@ ai-bom-converter/
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 - [Setup Guide](docs/SETUP_GUIDE.md) - Detailed installation instructions
 - [Architecture](docs/ARCHITECTURE.md) - System design and data flow
@@ -223,7 +223,7 @@ ai-bom-converter/
 
 ---
 
-## 🎬 Demo
+## Demo
 
 ### Sample Conversion
 
@@ -243,7 +243,7 @@ ai-bom-converter/
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────┐
@@ -272,7 +272,7 @@ ai-bom-converter/
 
 ---
 
-## 🤝 Team Sarthak
+##  Team Sarthak
 
 - **Team Name:** Sarthak
 - **Project:** AI-BOM-Converter
@@ -286,19 +286,19 @@ ai-bom-converter/
 
 ---
 
-## 🗓️ Development Timeline
+##  Development Timeline
 
 | Day | Tasks |
 |-----|-------|
-| **Day 1** | Setup MERN stack, UI for upload ✅ |
-| **Day 2** | Build parser + basic conversion ✅ |
-| **Day 3** | Integrate AI layer + output mBOM ✅ |
-| **Day 4** | Add export + dashboard ✅ |
-| **Day 5** | Polish UI, prepare demo & presentation ✅ |
+| **Day 1** | Setup MERN stack, UI for upload  |
+| **Day 2** | Build parser + basic conversion  |
+| **Day 3** | Integrate AI layer + output mBOM  |
+| **Day 4** | Add export + dashboard |
+| **Day 5** | Polish UI, prepare demo & presentation  |
 
 ---
 
-## 📝 API Endpoints
+## API Endpoints
 
 ### BOM Operations
 ```
@@ -320,25 +320,11 @@ See [API Documentation](docs/API_DOCUMENTATION.md) for detailed information.
 
 ---
 
-## 🧪 Testing
 
-```bash
-# Backend tests
-cd backend
-npm test
-
-# Frontend tests
-cd frontend
-npm test
-
-# AI Engine tests
-cd ai-engine
-pytest
-```
 
 ---
 
-## 🚢 Deployment
+##  Deployment
 
 ### Frontend (Vercel)
 ```bash
@@ -363,35 +349,29 @@ docker run -p 8000:8000 ai-bom-engine
 
 ---
 
-## 🎯 Hackathon Evaluation Criteria
+##  Hackathon Evaluation Criteria
 
-✅ **Industry Relevance** - Solves real manufacturing problem
-✅ **AI Innovation** - Smart use of TensorFlow + LangChain
-✅ **Scalability** - Production-ready architecture
-✅ **UI/UX** - Clean, intuitive interface
-✅ **Demo Quality** - Live conversion demonstration
-
----
-
-## 🔮 Future Enhancements
-
-- 🔌 ERP system integration (SAP, Oracle)
-- 🤖 Advanced ML models for cost prediction
-- 📊 Advanced analytics dashboard
-- 🌍 Multi-language support
-- 📱 Mobile application
-- 🔄 Real-time collaboration features
-- 🎨 BOM visualization with graphs
+ **Industry Relevance** - Solves real manufacturing problem
+ **AI Innovation** - Smart use of TensorFlow + LangChain
+ **Scalability** - Production-ready architecture
+ **UI/UX** - Clean, intuitive interface
+ **Demo Quality** - Live conversion demonstration
 
 ---
 
-## 📄 License
+##  Future Enhancements
 
-This project is developed for the L&T Hackathon by Team Sarthak.
+-  ERP system integration (SAP, Oracle)
+-  Advanced ML models for cost prediction
+-  Advanced analytics dashboard
+-  Multi-language support
+-  Mobile application
+-  Real-time collaboration features
+-  BOM visualization with graphs
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - L&T for organizing the Digital Manufacturing Challenge
 - OpenAI for providing AI capabilities
@@ -399,17 +379,3 @@ This project is developed for the L&T Hackathon by Team Sarthak.
 - The open-source community
 
 ---
-
-## 📞 Contact
-
-For queries related to this project, please contact Team Sarthak.
-
----
-
-<div align="center">
-
-**⭐ Star this repository if you find it useful!**
-
-Made with ❤️ by Team Sarthak for L&T Hackathon
-
-</div>
